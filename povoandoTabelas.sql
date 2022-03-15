@@ -1,0 +1,138 @@
+INSERT INTO estudio(dataFundacao, faturamentoAnual, nome, presidente)
+VALUES ("1935-05-31", 103000000000, "20th Century Fox", "Kevin Feige"),
+ 	("1912-05-08", 500000000000, "Paramount Pictures Corporation", "Jim Gianopulos"),
+        	("1987-12-21", 800000000000, "Sony Pictures Entertainment", "Michael Lynton"),
+	("1912-04-30", 420000000000,"Universal Studios", "Donna Langley"),
+	("1923-10-16", 550000000000, "The Walt Disney Company", "Bob Iger"),
+	("2011-03-26", 100000000000, "Open Road Films", "Eric Hohl"),
+	("1923-04-04", 124000000000, "Warner Bros. Pictures", "Ann Sarnoff");
+
+INSERT INTO oscar(edicao)
+VALUES ("82.ª edição"),
+("83.ª edição"),
+("84.ª edição"),
+("85.ª edição"),
+("86.ª edição"),
+("87.ª edição"),
+("88.ª edição"),
+("89.ª edição"),
+("90.ª edição"),
+("91.ª edição");
+
+INSERT INTO filme(nome, numeroMesesProducao, anoLancamento, copyright, custoTotalFilme, nomeEstudio, genero, edicaoOscar, categoriaOscar, anoOscar)
+VALUES ("Green Book: Um Guia Para a Vida", 24, 2018, 50, 23000000, "Universal Studios", "Comédia", "91.ª edição", "Melhor Filme", 2019),
+	("A Forma da Água", 22, 2017, 45, 19500000, "The Walt Disney Company", "Romance", "90.ª edição", "Melhor Filme", 2018),
+	("Moonlight: Sob a Luz do Luar", 25, 2017, 62, 4000000 ,"Paramount Pictures Corporation", "Drama", "89.ª edição", "Melhor Filme",2017),
+	("Spotlight - Segredos Revelados", 20, 2015, 30, 20000000, "Open Road Films", "Drama", "88.ª edição", "Melhor Filme", 2016),
+    ("Birdman", 26, 2014, 40, 18000000, "The Walt Disney Company", "Comédia", "87.ª edição", "Melhor Filme", 2015),
+    ("12 Anos de Escravidão", 23, 2013, 32, 22000000, "Open Road Films", "Drama", "86.ª edição", "Melhor Filme", 2014),
+	("Bohemian Rhapsody", 25, 2018, 55, 52000000, "20th Century Fox", "Drama", "91.ª edição", "Melhor Edição", 2019),
+	("O Destino de Uma Nação", 19, 2017, 49, 50000000, "Sony Pictures Entertainment", "Drama", "90.ª edição", "Melhor Penteado & Maquiagem", 2018),
+	("O Regresso", 26, 2015, 47, 135000000, "20th Century Fox", "Drama", "89.ª edição", "Melhor Diretor", 2017),
+	("Clube de Compras Dallas", 27, 2013, 62, 5500000, "Universal Studios", "Drama", "86.ª edição", "Melhor maquiagem e penteados", 2014),
+	("Lincoln", 19, 2012, 66, 65000000, "The Walt Disney Company", "Biografia", "85.ª edição", "Melhor Design de Produção", 2013),
+	("O Discurso do Rei", 22, 2010, 25, 15000000, "Paramount Pictures Corporation", "Biografia", "83.ª edição", "Melhor Filme", 2011),
+	("O Artista", 20, 2011, 48, 15000000, "Warner Bros. Pictures", "Comédia", "84.ª edição", "Melhor Diretor", 2012),
+	("Coração Louco", 21, 2009, 23, 7000000, "The Walt Disney Company", "Drama", "82.ª edição", "Melhor Canção Original", 2011),
+	("La La Land - Cantando Estações", 24, 2016, 50, 30000000, "Paramount Pictures Corporation", "Comédia", "89.ª edição", "Melhor Diretor", 2017),
+	("A Dama de Ferro", 28, 2011, 27, 14000000, "20th Century Fox", "Drama",  "84.ª edição", "Melhor Maquiagem", 2012);
+
+
+INSERT INTO filme(nome, numeroMesesProducao, anoLancamento, copyright, custoTotalFilme, nomeEstudio, genero)
+VALUES ("Manchester à Beira-Mar", 22, 2016, 54, 9000000, "Sony Pictures Entertainment", "Drama"),    	
+  	("A Teoria de Tudo", 21, 2014, 63, 15000000, "Universal Studios", "Drama"),
+	("Um Sonho Possível", 22, 2010, 27, 29000000, "Warner Bros. Pictures", "Drama"),
+   	("A Favorita", 21, 2018, 23, 15000000, "The Walt Disney Company", "Histórico"),
+    	("Três Anúncios Para Um Crime", 25, 2017, 27, 12000000, "The Walt Disney Company", "Drama"),
+    	("O Quarto de Jack", 25, 2015, 30, 13000000, "Paramount Pictures Corporation", "Drama"),
+    	("Para Sempre Alice", 22, 2014, 53, 10000000, "Sony Pictures Entertainment", "Drama"),
+    	("Blue Jasmine", 25, 2013, 26, 18000000, "The Walt Disney Company", "Comédia"),
+	("O Lado Bom da Vida", 17, 2012, 30, 21000000, "Paramount Pictures Corporation", "Comédia Romântica"),
+    	("Cisne Negro", 21, 2011, 27, 13000000, "The Walt Disney Company", "Drama");
+
+INSERT INTO atorAtriz(numeroSeguroSocial, nomeArtistico, idade, sexo, nacionalidade, dataNascimento, edicaoOscar, anoOscar, categoriaOscar)
+VALUES ("01", "Rami Malek", 38, "Masculino", "Norte-Americano","1981-05-12", "91.ª edição", 2019, "Melhor Ator"),
+	("02", "Gary Oldman", 61, "Masculino", "Britânico", "1958-03-21", "90.ª edição", 2018, "Melhor Ator"),
+    ("03", "Casey Affleck", 44, "Masculino", "Norte-Americano", "1975-08-12", "89.ª edição", 2017, "Melhor Ator"),
+    ("04", "Leonardo DiCaprio", 45, "Masculino", "Norte-Americano", "1974-11-11", "88.ª edição", 2016, "Melhor Ator"),
+    ("05", "Eddie Redmayne", 37, "Masculino", "Britânico", "1982-01-06", "87.ª edição", 2015, "Melhor Ator"),
+    ("06", "Matthew McConaughey", 50, "Masculino", "Norte-Americano", "1969-11-04", "86.ª edição", 2014, "Melhor Ator"),
+	("07", "Daniel Day-Lewis", 62, "Masculino", "Britânico", "1957-04-29", "85.ª edição", 2013, "Melhor Ator"),
+    ("08", "Jean Dujardin", 47, "Masculino", "Francês", "1972-06-19", "84.ª edição", 2012, "Melhor Ator"),
+    ("09", "Colin Firth", 59, "Masculino", "Britânico", "1960-09-19", "83.ª edição", 2011, "Melhor Ator"),
+    ("10", "Jeff Bridges", 70, "Masculino", "Norte-Americano", "1949-12-04", "82.ª edição", 2010, "Melhor Ator"),
+    ("11", "Olivia Colman", 45, "Feminino", "Britânica", "1974-01-30", "91.ª edição", 2019, "Melhor Atriz"),
+    ("12", "Frances McDormand", 62, "Feminino", "Norte-Americana", "1957-07-23", "90.ª edição", 2018, "Melhor Atriz"),
+    ("13", "Emma Stone", 31, "Feminino", "Norte-Americana", "1988-11-06", "89.ª edição", 2017, "Melhor Atriz"),
+    ("14", "Brie Larson", 30, "Feminino", "Norte-Americana", "1989-10-01", "88.ª edição", 2016, "Melhor Atriz"),
+    ("15", "Julianne Moore", 59, "Feminino", "Norte-Americana", "1983-12-03", "87.ª edição", 2015, "Melhor Atriz"),
+    ("16", "Cate Blanchett", 50, "Feminino", "Australiana", "1969-04-14", "86.ª edição", 2014, "Melhor Atriz"),
+    ("17", "Jennifer Lawrence", 29, "Feminino", "Norte-Americana", "1990-08-15", "85.ª edição", 2013, "Melhor Atriz"),
+    ("18", "Meryl Streep", 70, "Feminino", "Norte-Americana", "1949-06-22", "84.ª edição", 2012, "Melhor Atriz"),
+    ("19", "Natalie Portman", 38, "Feminino", "Israelita", "1981-06-09", "83.ª edição", 2011, "Melhor Atriz"),
+    ("20", "Sandra Bullock", 55, "Feminino", "Norte-Americano", "1964-07-26", "82.ª edição", 2010, "Melhor Atriz");
+    
+
+INSERT INTO filme_ator_atriz(nomeFilme, nomeArtistico, cachee, nomePersornagem)
+VALUES ("Bohemian Rhapsody", "Rami Malek", 61200300, "Freddie Mercury"),
+        ("O Destino de Uma Nação", "Gary Oldman", 64500000, "Winston Churchill"),
+        ("Manchester à Beira-Mar", "Casey Affleck", 61504000, "Lee Chandler"),
+        ("O Regresso", "Leonardo DiCaprio", 61534000, "Hugh Glass"),
+        ("A Teoria de Tudo", "Eddie Redmayne", 61505600, "Stephen Hawking"),
+        ("Clube de Compras Dallas", "Matthew McConaughey", 65500000, "Ron Woodroof"),
+        ("Lincoln", "Daniel Day-Lewis", 61780000, "Abraham Lincoln"),
+        ("O Artista", "Jean Dujardin", 61700000, "George Valentin"),
+        ("O Discurso do Rei", "Colin Firth", 61500000, "Rei Jorge VI"),
+        ("Coração Louco", "Jeff Bridges", 61500000, "Otis Blake"),
+        ("A Favorita", "Olivia Colman", 50000000, "Rainha Ana da Grã-Bretanha"),
+        ("Três Anúncios Para Um Crime", "Frances McDormand", 54000000, "Mildred Hayes"),
+        ("La La Land - Cantando Estações", "Emma Stone", 55000000, "Mia Dolan"),
+        ("O Quarto de Jack", "Brie Larson", 56000000, "Joy Newsome"),
+        ("Para Sempre Alice", "Julianne Moore", 57000000, "Alice Howland"),
+        ("Blue Jasmine", "Cate Blanchett", 58000000, "Jeanette Francis"),
+        ("O Lado Bom da Vida", "Jennifer Lawrence", 59000000, "Tiffany Maxwell"),
+        ("A Dama de Ferro", "Meryl Streep", 60002000, "Margaret Thatcher"),
+        ("Cisne Negro", "Natalie Portman", 61000000, "Nina Sayers"),
+        ("Um Sonho Possível", "Sandra Bullock", 61030000, "Leigh Anne Tuohy");
+
+
+INSERT INTO tipopapel(tipoPapel)
+VALUES ("Cantor"),
+	("Político"),
+("Zelador"),
+("Explorador"),
+("Físico"),
+("Cowboy"),
+("Astro de Cinema"),
+ 	("Rei"),
+("Rainha"),
+("Policial"),
+  	("Atriz"),
+ 	("Mãe"),
+("Professora"),
+("Socialite"),
+("Dançarina"),
+("Design de Interiores"),
+("Política");
+
+INSERT INTO tipopapel_ator(tipoPapel, nomeArtistico)
+VALUES ("Cantor", "Rami Malek"),
+    ("Político", "Gary Oldman"),
+    ("Zelador", "Casey Affleck"),
+    ("Explorador", "Leonardo DiCaprio"),
+    ("Físico", "Eddie Redmayne"),
+    ("Cowboy", "Matthew McConaughey"),
+    ("Político", "Daniel Day-Lewis"),
+    ("Astro de Cinema", "Jean Dujardin"),
+    ("Rei", "Colin Firth"),
+    ("Cantor", "Jeff Bridges"),
+    ("Rainha", "Olivia Colman"),
+    ("Policial", "Frances McDormand"),
+    ("Atriz", "Emma Stone"),
+    ("Mãe", "Brie Larson"),
+    ("Professora", "Julianne Moore"),
+    ("Socialite", "Cate Blanchett"),
+    ("Dançarina", "Jennifer Lawrence"),
+    ("Política", "Meryl Streep"),
+    ("Dançarina", "Natalie Portman"),
+    ("Design de Interiores", "Sandra Bullock");
